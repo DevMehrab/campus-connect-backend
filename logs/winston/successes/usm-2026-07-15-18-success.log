@@ -1,0 +1,4 @@
+Wed Jul 15 2026 18:12:40 - [[32minfo[39m]: Redis client connected successfully
+Wed Jul 15 2026 18:12:40 - [[32minfo[39m]: MongoDB Connected: localhost
+Wed Jul 15 2026 18:12:40 - [[32minfo[39m]: Server running in development mode on port 5050
+Wed Jul 15 2026 18:12:40 - [[32minfo[39m]: Socket server is ready for connections!

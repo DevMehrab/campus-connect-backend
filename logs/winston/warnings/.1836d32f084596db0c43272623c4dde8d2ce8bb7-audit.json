@@ -1,0 +1,70 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/home/mehrab/campus-backend/logs/winston/warnings/.1836d32f084596db0c43272623c4dde8d2ce8bb7-audit.json",
+    "files": [
+        {
+            "date": 1784103087773,
+            "name": "/home/mehrab/campus-backend/logs/winston/warnings/usm-2026-07-15-14-warn.log",
+            "hash": "118938737c7e9efe27a299c7207da642a3083f93a27446cee03ad9ebc36d2eba"
+        },
+        {
+            "date": 1784113939287,
+            "name": "/home/mehrab/campus-backend/logs/winston/warnings/usm-2026-07-15-17-warn.log",
+            "hash": "146a38c9513abb49c802044418d06d5f0e96a003d76f8ff956249ba3e0e0fe1b"
+        },
+        {
+            "date": 1784117560162,
+            "name": "/home/mehrab/campus-backend/logs/winston/warnings/usm-2026-07-15-18-warn.log",
+            "hash": "449dd81600e94414a453796c7d5f114ffe8ee6b0355e9862314baf72abedcdc1"
+        },
+        {
+            "date": 1784128987566,
+            "name": "/home/mehrab/campus-backend/logs/winston/warnings/usm-2026-07-15-21-warn.log",
+            "hash": "9a49cf8471963cf89bbd19f400d0292610704b7cac62a4bf6742c255afd2df04"
+        },
+        {
+            "date": 1784185457801,
+            "name": "/home/mehrab/campus-backend/logs/winston/warnings/usm-2026-07-16-13-warn.log",
+            "hash": "1b04788711884de28626ebfa354767090a77e367754a9935594d14749c287eb0"
+        },
+        {
+            "date": 1784195372595,
+            "name": "/home/mehrab/campus-backend/logs/winston/warnings/usm-2026-07-16-15-warn.log",
+            "hash": "15f515b382793abb51a358d7f4e2f3b29ff4ba522ee0a542e29d2178c9c1290c"
+        },
+        {
+            "date": 1784197380991,
+            "name": "/home/mehrab/campus-backend/logs/winston/warnings/usm-2026-07-16-16-warn.log",
+            "hash": "cc10f86c0ca0c02dc5c2747837d65778674553319e08d7860fdf810f2abaee66"
+        },
+        {
+            "date": 1784201462908,
+            "name": "/home/mehrab/campus-backend/logs/winston/warnings/usm-2026-07-16-17-warn.log",
+            "hash": "10095d398518799d452ccc53d59a6057bb6cfadc93fe622f38c8e2a6d9c2df74"
+        },
+        {
+            "date": 1784203283908,
+            "name": "/home/mehrab/campus-backend/logs/winston/warnings/usm-2026-07-16-18-warn.log",
+            "hash": "b6ec8d1b420e46ba9e1f681ed6c3017eec2b273b47b323e9d95abfc4430e1a1f"
+        },
+        {
+            "date": 1784208630475,
+            "name": "/home/mehrab/campus-backend/logs/winston/warnings/usm-2026-07-16-19-warn.log",
+            "hash": "414ff7d6c66bb97f39852c513fe276002cd77f3b494f40365458451afe84b39a"
+        },
+        {
+            "date": 1784210606482,
+            "name": "/home/mehrab/campus-backend/logs/winston/warnings/usm-2026-07-16-20-warn.log",
+            "hash": "bda27878eaafcef37d90caa79ba8d2a169ed4239e67a858c0676bdd73b03e7eb"
+        },
+        {
+            "date": 1784219314976,
+            "name": "/home/mehrab/campus-backend/logs/winston/warnings/usm-2026-07-16-22-warn.log",
+            "hash": "5efe00cf422f9bb1d3a014411181adc72a78c8a2427ef708a3be11385b3cc44b"
+        }
+    ],
+    "hashType": "sha256"
+}
