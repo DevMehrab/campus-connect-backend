@@ -64,6 +64,11 @@
             "date": 1784219314976,
             "name": "/home/mehrab/campus-backend/logs/winston/warnings/usm-2026-07-16-22-warn.log",
             "hash": "5efe00cf422f9bb1d3a014411181adc72a78c8a2427ef708a3be11385b3cc44b"
+        },
+        {
+            "date": 1784225929343,
+            "name": "/home/mehrab/campus-backend/logs/winston/warnings/usm-2026-07-17-00-warn.log",
+            "hash": "ddba7439910b468a8a20fe510a79801c21a26971ffbe8b4bddb76d68c51d3477"
         }
     ],
     "hashType": "sha256"
