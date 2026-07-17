@@ -37,7 +37,7 @@ export const globalErrorHandler: ErrorRequestHandler = (err, req, res, next) => 
       };
     });
   } else if (err?.code === 11000) {
-    statusCode = 409; // Conflict
+    statusCode = 409;
     message = "Duplicate Entry";
     const match = err.message.match(/"([^"]*)"/);
     const extractedMessage = match ? `${match[1]} is already taken` : "Duplicate value entered";
