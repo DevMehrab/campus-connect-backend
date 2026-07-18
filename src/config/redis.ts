@@ -1,7 +1,9 @@
 import Redis from "ioredis";
 import { logger } from "../utils/logger";
 
-export const redisClient = new Redis(process.env.REDIS_URL || "redis://localhost:6379");
+const redisClient = new Redis(process.env.REDIS_URL || "redis://localhost:6379", {
+  maxRetriesPerRequest: null
+});
 
 redisClient.on("connect", () => {
   logger.info("Redis client connected successfully");
