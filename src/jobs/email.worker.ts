@@ -1,11 +1,7 @@
 import { Worker } from "bullmq";
 import { sendEmail } from "../utils/mailer";
 import { logger } from "../utils/logger";
-
-const connection = {
-  host: "127.0.0.1",
-  port: 6380
-};
+import redisClient from "../config/redis";
 
 export const emailWorker = new Worker(
   "email-queue",
@@ -15,17 +11,19 @@ export const emailWorker = new Worker(
     logger.info(`Sending welcome email to ${email}...`);
 
     const htmlTemplate = `
-      
-        Welcome to the Campus App, ${name}!
-        We are thrilled to have you on board. Start compiling your thoughts on the feed today.
-      
+      <div>
+        <h1>Welcome to the Campus App, ${name}!</h1>
+        <p>We are thrilled to have you on board. Start compiling your thoughts on the feed today.</p>
+      </div>
     `;
 
     await sendEmail(email, "Welcome to Campus App!", htmlTemplate);
 
     logger.info(`Successfully sent welcome email to ${email}!`);
   },
-  { connection }
+  {
+    connection: redisClient as unknown as any
+  }
 );
 
 emailWorker.on("failed", (job, err) => {

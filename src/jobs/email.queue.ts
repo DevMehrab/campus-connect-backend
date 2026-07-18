@@ -1,13 +1,9 @@
 import { Queue } from "bullmq";
 import { logger } from "../utils/logger";
-
-const connection = {
-  host: "127.0.0.1",
-  port: 6380
-};
+import redisClient from "../config/redis";
 
 export const emailQueue = new Queue("email-queue", {
-  connection,
+  connection: redisClient as unknown as any,
   defaultJobOptions: {
     attempts: 5,
     backoff: {
