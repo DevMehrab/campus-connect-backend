@@ -24,6 +24,7 @@ router.get(
 router.put("/:id/like", auth("STUDENT", "ALUMNI"), PostController.toggleLike);
 
 router.get("/my-posts", auth("STUDENT", "ALUMNI"), PostController.getMyPosts);
+router.get("/user/:userId", auth("STUDENT", "ALUMNI"), PostController.getSpecificUserPosts);
 
 router.delete("/:postId", auth("STUDENT", "ALUMNI"), PostController.deletePost);
 router.get("/:id", auth("STUDENT", "ALUMNI"), PostController.getPostById);

@@ -5,6 +5,7 @@ import { PostRoutes } from "./modules/post/post.route";
 import { CommentRoutes } from "./modules/comment/comment.route";
 import { NotificationRoutes } from "./modules/notification/notification.route";
 import { MessageRoutes } from "./modules/message/message.route";
+import { AssistantRoutes } from "./modules/assistant/assistant.route";
 
 const router = Router();
 
@@ -32,6 +33,10 @@ const moduleRoutes = [
   {
     path: "/messages",
     route: MessageRoutes
+  },
+  {
+    path: "/assistant",
+    route: AssistantRoutes
   }
 ];
 

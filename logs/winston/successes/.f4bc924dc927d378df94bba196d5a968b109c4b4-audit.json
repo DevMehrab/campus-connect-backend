@@ -189,6 +189,46 @@
             "date": 1784225929340,
             "name": "/home/mehrab/campus-backend/logs/winston/successes/usm-2026-07-17-00-success.log",
             "hash": "cfe740c6b531dbee56c70d85db57d1df0d777c7982fc93bfb769f282aaf81d47"
+        },
+        {
+            "date": 1784450416685,
+            "name": "/home/mehrab/campus-backend/logs/winston/successes/usm-2026-07-19-14-success.log",
+            "hash": "8fa809788aa57fa237df8edda2a2195a799f3c64d51b87ae55b5499e6a1c5aa2"
+        },
+        {
+            "date": 1784451830145,
+            "name": "/home/mehrab/campus-backend/logs/winston/successes/usm-2026-07-19-15-success.log",
+            "hash": "6034471917f02251708668437a883024b7a9a82c5fbb10d8e5bea3587fe91c2b"
+        },
+        {
+            "date": 1784455205297,
+            "name": "/home/mehrab/campus-backend/logs/winston/successes/usm-2026-07-19-16-success.log",
+            "hash": "eb358dad900ee3afbe796c662bd1ceb5a68f7aed511652c315ae3b875c6b4c7e"
+        },
+        {
+            "date": 1784467141427,
+            "name": "/home/mehrab/campus-backend/logs/winston/successes/usm-2026-07-19-19-success.log",
+            "hash": "34049f79b445cc9e781b946c7ff8d72af4b7effc844913ec19f1c31dcb80cace"
+        },
+        {
+            "date": 1784470083923,
+            "name": "/home/mehrab/campus-backend/logs/winston/successes/usm-2026-07-19-20-success.log",
+            "hash": "9a2176305f90f9282bc41f2e99f884f19eac3a8a6d023eb33ad1f2b40aeba8b7"
+        },
+        {
+            "date": 1784473262790,
+            "name": "/home/mehrab/campus-backend/logs/winston/successes/usm-2026-07-19-21-success.log",
+            "hash": "bdad8e3d52e94272b78c3e6145dc4cda4be833ce9212d1af7503f1b6ad27597c"
+        },
+        {
+            "date": 1784476995198,
+            "name": "/home/mehrab/campus-backend/logs/winston/successes/usm-2026-07-19-22-success.log",
+            "hash": "b1cf1b651542e43b88a1b20a5470ed4e5fd4474f65fa6231158cceb6ea57efce"
+        },
+        {
+            "date": 1784481241238,
+            "name": "/home/mehrab/campus-backend/logs/winston/successes/usm-2026-07-19-23-success.log",
+            "hash": "5018eed84a2ad235b5c98e12cb52442a4f7adcef9cec011ee69ab5ef9a343c67"
         }
     ],
     "hashType": "sha256"

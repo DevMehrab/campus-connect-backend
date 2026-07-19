@@ -27,7 +27,7 @@ const getUserNotifications = async (userId: string, query: Record<string, any>) 
     })
     .skip(skip)
     .limit(limit)
-    .populate("sender", "name profilePicture")
+    .populate("sender", "username profilePicture")
     .populate("post", "content");
 
   const total = await Notification.countDocuments({

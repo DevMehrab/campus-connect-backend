@@ -43,6 +43,14 @@ const userSchema = new Schema<IUserDocument>(
       type: String,
       trim: true
     },
+    batch: {
+      type: Number,
+      enum: {
+        values: [1, 2, 3, 4],
+        message: "{VALUE} is not a valid batch"
+      },
+      trim: true
+    },
     bio: {
       type: String,
       maxlength: [160, "Bio cannot exceed 160 characters"]

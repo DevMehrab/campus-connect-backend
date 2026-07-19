@@ -10,6 +10,7 @@ export interface IUser {
   role: TUserRole;
   profilePicture?: string;
   universityId?: string;
+  batch?: number;
   bio?: string;
   isVerified: boolean;
   isActive: boolean;

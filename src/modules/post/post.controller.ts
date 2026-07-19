@@ -97,11 +97,25 @@ const getPostById = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
+const getSpecificUserPosts = catchAsync(async (req: Request, res: Response) => {
+  const { userId: targetUserId } = req.params;
+  const currentUserId = req.user?.id || req.user?._id || req.user?.userId;
+
+  const result = await PostService.getUserPosts(String(targetUserId), currentUserId, req.query);
+
+  res.status(200).json({
+    success: true,
+    message: "User posts retrieved successfully",
+    data: result
+  });
+});
+
 export const PostController = {
   createPost,
   getFeed,
   toggleLike,
   deletePost,
   getMyPosts,
-  getPostById
+  getPostById,
+  getSpecificUserPosts
 };

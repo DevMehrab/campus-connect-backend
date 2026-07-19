@@ -1,0 +1,36 @@
+Sun Jul 19 2026 20:8:3 - [[32minfo[39m]: Client disconnected: WnEWAcIFKJkn-K8VAAAL
+Sun Jul 19 2026 20:8:4 - [[32minfo[39m]: New client connected: Ahp_kAHqfsyX86IiAAAN
+Sun Jul 19 2026 20:8:4 - [[32minfo[39m]: User 6a53d945c988a5f7556c0a81 mapped to socket Ahp_kAHqfsyX86IiAAAN
+Sun Jul 19 2026 20:11:4 - [[32minfo[39m]: Client disconnected: Ahp_kAHqfsyX86IiAAAN
+Sun Jul 19 2026 20:11:5 - [[32minfo[39m]: New client connected: 5og-yv3jf6Y0lTH_AAAP
+Sun Jul 19 2026 20:11:5 - [[32minfo[39m]: User 6a53d945c988a5f7556c0a81 mapped to socket 5og-yv3jf6Y0lTH_AAAP
+Sun Jul 19 2026 20:11:10 - [[32minfo[39m]: Client disconnected: 5og-yv3jf6Y0lTH_AAAP
+Sun Jul 19 2026 20:11:11 - [[32minfo[39m]: New client connected: P7gR7zt6wRMZ4s-ZAAAR
+Sun Jul 19 2026 20:11:11 - [[32minfo[39m]: User 6a53d945c988a5f7556c0a81 mapped to socket P7gR7zt6wRMZ4s-ZAAAR
+Sun Jul 19 2026 20:11:11 - [[32minfo[39m]: Client disconnected: P7gR7zt6wRMZ4s-ZAAAR
+Sun Jul 19 2026 20:11:12 - [[32minfo[39m]: New client connected: pazjfzr28C4dx1kUAAAT
+Sun Jul 19 2026 20:11:12 - [[32minfo[39m]: User 6a53d945c988a5f7556c0a81 mapped to socket pazjfzr28C4dx1kUAAAT
+Sun Jul 19 2026 20:11:17 - [[32minfo[39m]: Client disconnected: pazjfzr28C4dx1kUAAAT
+Sun Jul 19 2026 20:11:18 - [[32minfo[39m]: New client connected: iwtpDnp37smjWz9LAAAV
+Sun Jul 19 2026 20:11:18 - [[32minfo[39m]: User 6a53d945c988a5f7556c0a81 mapped to socket iwtpDnp37smjWz9LAAAV
+Sun Jul 19 2026 20:11:23 - [[32minfo[39m]: Client disconnected: iwtpDnp37smjWz9LAAAV
+Sun Jul 19 2026 20:11:24 - [[32minfo[39m]: New client connected: GYCwb2qgElwy4av6AAAX
+Sun Jul 19 2026 20:11:24 - [[32minfo[39m]: User 6a53d945c988a5f7556c0a81 mapped to socket GYCwb2qgElwy4av6AAAX
+Sun Jul 19 2026 20:11:29 - [[32minfo[39m]: Client disconnected: GYCwb2qgElwy4av6AAAX
+Sun Jul 19 2026 20:11:29 - [[32minfo[39m]: New client connected: ijRhCAyXH45SHQCCAAAZ
+Sun Jul 19 2026 20:11:29 - [[32minfo[39m]: User 6a53d945c988a5f7556c0a81 mapped to socket ijRhCAyXH45SHQCCAAAZ
+Sun Jul 19 2026 20:12:30 - [[32minfo[39m]: Client disconnected: ijRhCAyXH45SHQCCAAAZ
+Sun Jul 19 2026 20:22:24 - [[32minfo[39m]: New client connected: rJEHoa_6llKrdQWoAAAb
+Sun Jul 19 2026 20:22:24 - [[32minfo[39m]: User 6a53d945c988a5f7556c0a81 mapped to socket rJEHoa_6llKrdQWoAAAb
+Sun Jul 19 2026 20:23:39 - [[32minfo[39m]: Client disconnected: rJEHoa_6llKrdQWoAAAb
+Sun Jul 19 2026 20:23:39 - [[32minfo[39m]: New client connected: 06oML4imnObohd5KAAAd
+Sun Jul 19 2026 20:23:39 - [[32minfo[39m]: User 6a53d945c988a5f7556c0a81 mapped to socket 06oML4imnObohd5KAAAd
+Sun Jul 19 2026 20:24:40 - [[32minfo[39m]: Client disconnected: 06oML4imnObohd5KAAAd
+Sun Jul 19 2026 20:25:0 - [[32minfo[39m]: New client connected: jojtvZRM9ET1ol3lAAAf
+Sun Jul 19 2026 20:25:0 - [[32minfo[39m]: User 6a53d945c988a5f7556c0a81 mapped to socket jojtvZRM9ET1ol3lAAAf
+Sun Jul 19 2026 20:52:33 - [[32minfo[39m]: Redis client connected successfully
+Sun Jul 19 2026 20:52:33 - [[32minfo[39m]: MongoDB Connected: localhost
+Sun Jul 19 2026 20:52:33 - [[32minfo[39m]: Server running in development mode on port 5050
+Sun Jul 19 2026 20:52:33 - [[32minfo[39m]: Socket server is ready for connections!
+Sun Jul 19 2026 20:52:36 - [[32minfo[39m]: New client connected: kluj7vIzvAfIlEuzAAAB
+Sun Jul 19 2026 20:52:36 - [[32minfo[39m]: User 6a53d945c988a5f7556c0a81 mapped to socket kluj7vIzvAfIlEuzAAAB
