@@ -3,9 +3,10 @@ import { Routine } from "./routine.model";
 import { CalendarEvent } from "./calendar.model";
 import { User } from "../user/user.model";
 import redisClient from "../../config/redis";
+import { config } from "../../config";
 
 const groq = new OpenAI({
-  apiKey: process.env.GROQ_API_KEY,
+  apiKey: config.groqApiKey,
   baseURL: "https://api.groq.com/openai/v1"
 });
 

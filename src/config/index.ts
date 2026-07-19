@@ -11,6 +11,9 @@ const envVarsSchema = z.object({
   PORT: z.string().default("5000"),
   MONGO_URI: z.string().url({
     message: "MONGO_URI must be a valid URL"
+  }),
+  GROQ_API_KEY: z.string({
+    message: "GROQ_API_KEY is required in the .env file"
   })
 });
 
@@ -26,5 +29,6 @@ export const config = {
   port: envVars.data.PORT,
   db: {
     uri: envVars.data.MONGO_URI
-  }
+  },
+  groqApiKey: envVars.data.GROQ_API_KEY
 };
