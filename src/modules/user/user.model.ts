@@ -13,7 +13,13 @@ const userSchema = new Schema<IUserDocument>(
       required: [true, "Username is required"],
       unique: true,
       trim: true,
-      minlength: [6, "Username must be at least 6 characters"]
+      lowercase: true,
+      minlength: [6, "Username must be at least 6 characters"],
+      maxlength: [16, "Username cannot exceed 16 characters"],
+      match: [
+        /^[a-z0-9.-]+$/,
+        "Username can only contain letters, numbers, dots, and dashes without spaces"
+      ]
     },
     email: {
       type: String,
@@ -30,7 +36,7 @@ const userSchema = new Schema<IUserDocument>(
     role: {
       type: String,
       enum: {
-        values: ["STUDENT", "ALUMNI", "ADMIN", "SUPER_ADMIN"],
+        values: ["STUDENT", "ALUMNI"],
         message: "{VALUE} is not a valid role"
       },
       default: "STUDENT"

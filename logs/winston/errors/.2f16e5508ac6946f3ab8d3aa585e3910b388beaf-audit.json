@@ -209,6 +209,16 @@
             "date": 1784481266742,
             "name": "/home/mehrab/campus-backend/logs/winston/errors/usm-2026-07-19-23-error.log",
             "hash": "c3c7f930cff32caf6ec969f67b29e00c358171a4ec107c78281bcac5fe900ea6"
+        },
+        {
+            "date": 1784485627691,
+            "name": "/home/mehrab/campus-backend/logs/winston/errors/usm-2026-07-20-00-error.log",
+            "hash": "967e84f1d775e5c0d1f654d1400c7b6a730a85dc03636a8ac20fdb7b36c2641d"
+        },
+        {
+            "date": 1784490135023,
+            "name": "/home/mehrab/campus-backend/logs/winston/errors/usm-2026-07-20-01-error.log",
+            "hash": "01bbee161073573d76f7d19a1beacdc3c210939c46c36e103d43a6f20d0da11e"
         }
     ],
     "hashType": "sha256"
