@@ -244,6 +244,41 @@
             "date": 1784491385039,
             "name": "/home/mehrab/campus-backend/logs/winston/successes/usm-2026-07-20-02-success.log",
             "hash": "74b30afa185de9741b9a37fd2f64188b44c82802bebf923d6cdce752c74a4666"
+        },
+        {
+            "date": 1784548378344,
+            "name": "/home/mehrab/campus-backend/logs/winston/successes/usm-2026-07-20-17-success.log",
+            "hash": "0ec4e65a0db45663592111ec47a3ddfcb4e65c0a193059675ea4d11ac6efd97d"
+        },
+        {
+            "date": 1784549056131,
+            "name": "/home/mehrab/campus-backend/logs/winston/successes/usm-2026-07-20-18-success.log",
+            "hash": "c0da6588e808b1265ee9163add27fffd528b6ac0b541f87b0a89b36f04300ce8"
+        },
+        {
+            "date": 1784553235289,
+            "name": "/home/mehrab/campus-backend/logs/winston/successes/usm-2026-07-20-19-success.log",
+            "hash": "f1f275c46a54699440d3b87c6c414586f3018a4a94783b2fc1aeb6bae59b7a9c"
+        },
+        {
+            "date": 1784556363335,
+            "name": "/home/mehrab/campus-backend/logs/winston/successes/usm-2026-07-20-20-success.log",
+            "hash": "f56b4c04f4046b36da89c7583775eb5b8cfd8465d56e1f500c997878a78a64d6"
+        },
+        {
+            "date": 1784564010476,
+            "name": "/home/mehrab/campus-backend/logs/winston/successes/usm-2026-07-20-22-success.log",
+            "hash": "897f6f7a1821c6228a677fcb2558f0c9db8b26ea2a3ebc84964bd1c3103ce2d8"
+        },
+        {
+            "date": 1784567180626,
+            "name": "/home/mehrab/campus-backend/logs/winston/successes/usm-2026-07-20-23-success.log",
+            "hash": "7d8154c45b4ac8dde25b61ac8e6b4aa40d5a5f1e61262d003e17d83188d38a8d"
+        },
+        {
+            "date": 1784571362185,
+            "name": "/home/mehrab/campus-backend/logs/winston/successes/usm-2026-07-21-00-success.log",
+            "hash": "f04e2e4e1a551d3bee140409036018d1da5482ea92aff32b53e2b20f4b6e6568"
         }
     ],
     "hashType": "sha256"

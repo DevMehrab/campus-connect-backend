@@ -15,6 +15,13 @@ router.post(
 
 router.get("/:postId", auth("STUDENT", "ALUMNI"), CommentController.getPostComments);
 
+router.patch(
+  "/:commentId",
+  auth("STUDENT", "ALUMNI"),
+  validate(CommentValidation.updateCommentSchema),
+  CommentController.updateComment
+);
+
 router.delete("/:commentId", auth("STUDENT", "ALUMNI"), CommentController.deleteComment);
 
 export const CommentRoutes = router;

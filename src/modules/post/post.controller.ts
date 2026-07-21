@@ -110,6 +110,19 @@ const getSpecificUserPosts = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
+const updatePost = catchAsync(async (req: Request, res: Response) => {
+  const { id } = req.params;
+  const userId = req.user!.userId;
+
+  const result = await PostService.updatePost(String(id), userId, req.body);
+
+  res.status(200).json({
+    success: true,
+    message: "Post updated successfully",
+    data: result
+  });
+});
+
 export const PostController = {
   createPost,
   getFeed,
@@ -117,5 +130,6 @@ export const PostController = {
   deletePost,
   getMyPosts,
   getPostById,
-  getSpecificUserPosts
+  getSpecificUserPosts,
+  updatePost
 };

@@ -184,11 +184,43 @@ const getPostById = async (postId: string) => {
   return post;
 };
 
+const updatePost = async (postId: string, userId: string, payload: Partial<IPost>) => {
+  const post = await Post.findById(postId);
+
+  if (!post) {
+    throw new AppError(404, "Post not found");
+  }
+
+  if (post.author.toString() !== userId.toString()) {
+    throw new AppError(403, "You are not authorized to update this post");
+  }
+
+  const allowedUpdates = ["content", "images", "tags", "isArchived"];
+  const updates: Record<string, any> = {};
+
+  for (const key of allowedUpdates) {
+    if (payload[key as keyof IPost] !== undefined) {
+      updates[key] = payload[key as keyof IPost];
+    }
+  }
+
+  const updatedPost = await Post.findByIdAndUpdate(
+    postId,
+    { $set: updates },
+    { new: true, runValidators: true }
+  ).populate("author", "name profilePicture role username universityId");
+
+  await invalidateFeedCache();
+
+  return updatedPost;
+};
+
 export const PostService = {
   createPost,
   getFeed,
   toggleLike,
   deletePost,
   getUserPosts,
-  getPostById
+  getPostById,
+  updatePost
 };

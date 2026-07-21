@@ -6,13 +6,13 @@ import redisClient from "../config/redis";
 export const emailWorker = new Worker(
   "email-queue",
   async job => {
-    const { email, name } = job.data;
+    const { email, username } = job.data;
 
     logger.info(`Sending welcome email to ${email}...`);
 
     const htmlTemplate = `
       <div>
-        <h1>Welcome to the Campus App, ${name}!</h1>
+        <h1>Welcome to the Campus App, ${username}!</h1>
         <p>We are thrilled to have you on board. Start compiling your thoughts on the feed today.</p>
       </div>
     `;

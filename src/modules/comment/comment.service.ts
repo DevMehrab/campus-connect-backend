@@ -89,8 +89,30 @@ const deleteComment = async (commentId: string, userId: string) => {
   return null;
 };
 
+const updateComment = async (
+  commentId: string,
+  userId: string,
+  content: string
+) => {
+  const comment = await Comment.findById(commentId);
+
+  if (!comment) {
+    throw new AppError(404, "Comment not found");
+  }
+
+  if (comment.author.toString() !== userId.toString()) {
+    throw new AppError(403, "You are not authorized to update this comment");
+  }
+
+  comment.content = content;
+  await comment.save();
+
+  return await comment.populate("author", "name profilePicture role username");
+};
+
 export const CommentService = {
   createComment,
   getPostComments,
-  deleteComment
+  deleteComment,
+  updateComment
 };

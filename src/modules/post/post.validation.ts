@@ -23,7 +23,20 @@ const getFeedSchema = z.object({
   })
 });
 
+const updatePostSchema = z.object({
+  body: z.object({
+    content: z.string().min(1, "Content is required").max(2000, "Post is too long").optional(),
+    images: z
+      .array(z.string().url("Invalid image URL"))
+      .max(4, "You can only upload up to 4 images")
+      .optional(),
+    tags: z.array(z.enum(["EVENT", "ANNOUNCEMENT", "HOUSING", "ACADEMICS", "GENERAL"])).optional(),
+    isArchived: z.boolean().optional()
+  })
+});
+
 export const PostValidation = {
   createPostSchema,
-  getFeedSchema
+  getFeedSchema,
+  updatePostSchema
 };

@@ -28,5 +28,11 @@ router.get("/user/:userId", auth("STUDENT", "ALUMNI"), PostController.getSpecifi
 
 router.delete("/:postId", auth("STUDENT", "ALUMNI"), PostController.deletePost);
 router.get("/:id", auth("STUDENT", "ALUMNI"), PostController.getPostById);
+router.put(
+  "/:id",
+  auth("STUDENT", "ALUMNI"),
+  validate(PostValidation.updatePostSchema),
+  PostController.updatePost
+);
 
 export const PostRoutes = router;

@@ -43,8 +43,27 @@ const deleteComment = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
+const updateComment = catchAsync(async (req: Request, res: Response) => {
+  const { commentId } = req.params;
+  const currentUserId = req.user?.userId || req.user?.id || req.user?._id;
+  const { content } = req.body;
+
+  const result = await CommentService.updateComment(
+    String(commentId),
+    currentUserId,
+    content
+  );
+
+  res.status(200).json({
+    success: true,
+    message: "Comment updated successfully",
+    data: result
+  });
+});
+
 export const CommentController = {
   createComment,
   getPostComments,
-  deleteComment
+  deleteComment,
+  updateComment
 };
